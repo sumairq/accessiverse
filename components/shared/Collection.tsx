@@ -30,7 +30,7 @@ const Collection = ({
       lg:grid-cols-3 xl:gap-10'>
        {data.map((event)=> {
         const hasOrderLink = collectionType === 'Events_Organized';
-        const hidePrice = collectionType === 'My_Events';
+        const hidePrice = collectionType === 'My_Tickets';
 
         return (
           <li key={event._id} className="flex justify-center">
