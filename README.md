@@ -15,7 +15,7 @@ Welcome to the source repository for the AccessiVerse! This project aims to prov
 ## Technologies Used
 
 - **Frontend:** Next.js for server-side rendering, React components, and routing.
-- **Styling:** Tailwind CSS for rapid UI development and flexibility.
+- **Styling:** Tailwind CSS for rapid UI development and flexibility and Chadcn Ui components.
 - **Backend:** Node.js Server actions for server-side logic and API endpoints.
 - **Database:** MongoDB for storing event data and user information.
 - **Authentication:** Clerk Authentication System.
