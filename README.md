@@ -20,6 +20,11 @@ Welcome to the source repository for the AccessiVerse! This project aims to prov
 - **Database:** MongoDB for storing event data and user information.
 - **Authentication:** Clerk Authentication System.
 
+## Screenshots
+### Homepage
+![homepage](https://github.com/sumairq/accessiverse/assets/60618877/5dd076a9-10e8-4690-91e4-e572695660ad)
+
+
 ## Getting Started
 
 First, run the development server:
