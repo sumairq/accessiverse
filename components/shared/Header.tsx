@@ -8,10 +8,10 @@ import MobileNav from './MobileNav'
 
 const Header = () => {
   return (
-    <header className='w-full border-b'>
+    <header className='bg-slate-50 w-full border-b'>
         <div className='wrapper flex items-center justify-between'>
             <Link href="/" className='w-36'>
-                <Image src="/assets/images/logo.svg" width={128} height={38} alt="Evently logo"/>
+                <Image src="/assets/images/logo.png" width={128} height={38} alt="Accessiverse logo"/>
             </Link>
 
             <SignedIn>
@@ -25,6 +25,9 @@ const Header = () => {
                     <MobileNav/>
                 </SignedIn>
            <SignedOut>
+            <Button className='rounded-xl' size="lg">
+            <Link href={"/events"}>events</Link>
+            </Button>
             <Button asChild className='rounded-full' size="lg">
                 <Link href={"/sign-in"}>
                 login   
