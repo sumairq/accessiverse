@@ -1,24 +1,4 @@
-# AccessiVerse
-<p align="center">
-    <img src="https://github.com/sumairq/accessiverse/assets/60618877/46c5416d-413c-4f14-9b03-dd2d93f0086e" style="float:left; margin-right:10px; width:40%;" alt="Your Image Description">
-</p>
-
-Welcome to the source repository for the AccessiVerse! This project aims to provide a platform that let's you create and join accessibility-related events and discussions within the community.
-
-## Features
-
-- **Events Listing:** Browse upcoming accessibility events, conferences, workshops, and meetups.
-- **Forums:** Engage in discussions, ask questions, and share insights with the community.
-- **User Authentication:** Secure user authentication and authorization using Clerk for accessing forums and posting events.
-- **Responsive Design:** Built with responsive design principles to ensure accessibility across devices.
-
-## Technologies Used
-
-- **Frontend:** Next.js for server-side rendering, React components, and routing.
-- **Styling:** Tailwind CSS for rapid UI development and flexibility and Chadcn Ui components.
-- **Backend:** Node.js Server actions for server-side logic and API endpoints.
-- **Database:** MongoDB for storing event data and user information.
-- **Authentication:** Clerk Authentication System.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -28,26 +8,29 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Contributing
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+## Learn More
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit them: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request.
+To learn more about Next.js, take a look at the following resources:
 
-## License
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-This project is licensed under the [MIT License](LICENSE).
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
