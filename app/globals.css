@@ -35,6 +35,68 @@
     --radius: 0.5rem;
   }
 
+  /* . {
+    background-color: #e5e5f7;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 13px ), repeating-linear-gradient( #444cf755, #444cf7 );
+  } */
+
+  .::before {
+    flex-direction: column-reverse;
+    display: flex;
+    content:"";
+    z-index: -9;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 13px ), repeating-linear-gradient( #444cf755, #444cf7 );
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.06;
+  }
+
+  .meet-instructors {
+    position: relative;
+  }
+
+  .instructors-header {
+   z-index: -10;
+   background-image: url('/assets/images/meetInstructors.jpg');
+   object-fit: cover;
+   object-position: right;
+   filter: blur(5px);
+   opacity: .6;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 45%;
+    padding: 50px 0;
+    text-align: center;
+  }
+  /* .instructors-header::before {
+    content: '';
+    z-index: 99;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/assets/images/meetInstructors.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+
+  .content {
+    z-index: 9;
+  }
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
