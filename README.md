@@ -22,7 +22,8 @@ Welcome to the source repository for the AccessiVerse! This project aims to prov
 
 ## Screenshots
 ### Homepage
-![homepage](https://github.com/sumairq/accessiverse/assets/60618877/5dd076a9-10e8-4690-91e4-e572695660ad)
+![home](https://github.com/sumairq/accessiverse/assets/60618877/a324fcc9-097b-45db-aadb-7fdcee8906f9)
+
 
 
 ## Getting Started
