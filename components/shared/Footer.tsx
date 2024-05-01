@@ -32,7 +32,7 @@ const Footer = () => {
               <h1 className="col-span-2 font-bold uppercase">About Developer  <span><Link target="_blank" href={'https://github.com/sumairq'}><Image className="inline" alt="github icon" height={23} width={23} src={"/assets/icons/github.png"}/></Link></span><span><Link target="_blank" href={'https://www.linkedin.com/in/sumairq/'}><Image className="inline" alt="github icon" height={23} width={23} src={"/assets/icons/linkedin.png"}/></Link></span></h1>
             
               <div className="">
-              <Image className="rounded-full border-emerald-500" alt="sumair's picture" src={'/assets/images/developer.jpg'} height={120} width={120}/>
+              <Image className="rounded-full border-emerald-500" alt="sumair's picture" src={'/assets/images/developer.png'} height={120} width={120}/>
               </div>
               <p><span className="underline decoration-4 decoration-yellow-500 underline-offset-4">Sumair</span> is a frontend developer with a passion for beautiful interfaces.</p>
              </div>
