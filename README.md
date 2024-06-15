@@ -38,7 +38,7 @@ yarn dev
 
 ## Testing
 ```bash
-npm test
+npm run test
 ```
 
 
