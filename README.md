@@ -3,7 +3,7 @@
     <img src="https://github.com/sumairq/accessiverse/assets/60618877/46c5416d-413c-4f14-9b03-dd2d93f0086e" style="float:left; margin-right:10px; width:40%;" alt="Your Image Description">
 </p>
 
-Welcome to the source repository for the AccessiVerse! This project aims to provide a platform that let's you create and join accessibility-related events and discussions within the community.
+Welcome to the repository for the AccessiVerse! This project aims to provide a platform that let's you create and join accessibility-related events and discussions within the community.
 
 ## Features
 
@@ -15,7 +15,7 @@ Welcome to the source repository for the AccessiVerse! This project aims to prov
 ## Technologies Used
 
 - **Frontend:** Next.js for server-side rendering, React components, and routing.
-- **Styling:** Tailwind CSS for rapid UI development and flexibility and Chadcn Ui components.
+- **Styling:** Tailwind CSS for rapid UI development and flexibility and Chadcn UI components.
 - **Backend:** Node.js Server actions for server-side logic and API endpoints.
 - **Database:** MongoDB for storing event data and user information.
 - **Authentication:** Clerk Authentication System.
